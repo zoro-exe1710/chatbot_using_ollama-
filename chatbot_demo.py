@@ -38,8 +38,7 @@ def main():
 
     # Generate custom greeting based on local time
     greeting = time_based_greeting()
-    print(Fore.GREEN + f"\n{greeting}, {username}! "
-          + Fore.WHITE + "I am your chatbot. How can I help you?\n")
+    print(Fore.GREEN + f"\n{greeting}, {username}! "+ Fore.WHITE + "I am your chatbot. How can I help you?\n")
 
     # Chat loop
     while True:
